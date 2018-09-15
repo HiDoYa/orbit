@@ -44,9 +44,9 @@ class Planet:
 # Init
 mass_center = 20
 # 2d array of planets (first one is planet, following are moons)
-planets = [[Planet(6, 100, 0, 0.06, GREEN), Planet(4, 80, 0, 0.1, BLUE), Planet(2, 20, 0, 0.11, RED)],
-           [Planet(6, 200, 0, 0.05, GREEN), Planet(4, 80, 0, 0.1, BLUE)],
-           [Planet(6, 300, 0, 0.04, GREEN), Planet(4, 80, 0, 0.1, BLUE)]]
+planets = [[Planet(6, 100, 0, 0.061, GREEN), Planet(4, 80, 0, 0.11, BLUE), Planet(2, 20, 0, 0.13, RED)],
+           [Planet(6, 200, 0, 0.052, GREEN), Planet(4, 80, 0, 0.12, BLUE)],
+           [Planet(6, 300, 0, 0.043, GREEN), Planet(4, 80, 0, 0.13, BLUE)]]
 
 # Text
 text = pygame.font.SysFont("Gill Sans", 25)
